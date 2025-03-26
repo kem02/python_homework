@@ -237,7 +237,8 @@ minutes_set = create_minutes_set()
 # This function converts the minutes_set (which is a set that contains tuples with a date string)
 # into a list of tuples where the date string is converted to a datetime object.
 def create_minutes_list():
-
+    # You needed to convert the date strings to datetime objects -> ('Joseph Harris', datetime.datetime(1991, 4, 3, 0, 0))
+    # Otherwise later when you sort them, they'll be sorted in alphabetical order ("April 1, 2023" would come before "September 2, 1980")
     new_list = list(
         map(lambda x: (x[0], datetime.strptime(x[1], "%B %d, %Y")), list(minutes_set))
     )
@@ -259,10 +260,11 @@ def write_sorted_list():
     minutes_list.sort(key=lambda x: x[1])
     # print("AFTER SORTING", minutes_list)
 
+    # Convert datetime object back to string. Looks better than datetime object -> datetime.datetime(1991, 4, 3, 0, 0)
     new_list = list(
         map(lambda x: (x[0], datetime.strftime(x[1], "%B %d, %Y")), minutes_list)
     )
-    print(new_list)
+    # print(new_list)
 
     try:
         with open("./minutes.csv", "w") as file:
