@@ -267,7 +267,7 @@ def write_sorted_list():
     # print(new_list)
 
     try:
-        with open("./minutes.csv", "w") as file:
+        with open("./minutes.csv", "w", newline="") as file:
             writer = csv.writer(file)
             writer.writerow(minutes1["fields"])
 
