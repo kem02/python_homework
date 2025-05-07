@@ -1,0 +1,2 @@
+The main challenge I faced was using XPath for the first time. I kept on getting errors trying to use the last() method. 
+After a bit of googling, I got a better understanding on how to impliment the XPath axes and got the code to work as intended. 

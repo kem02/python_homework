@@ -1,0 +1,21 @@
+1. Which sections of the website are restricted for crawling?
+- /w/
+- /api/
+- /trap/s
+- /wiki/Special:
+- /wiki/Spezial:
+- /wiki/Spesial:
+- /wiki/Special%3A
+- /wiki/Spezial%3A
+- /wiki/Spesial%3A
+
+
+
+2. Are there specific rules for certain user agents?
+Some bots like MJ12bot, UbiCrawler, wget, HTTrack, and others are completely blocked.
+
+
+
+
+3. Reflect on why websites use robots.txt.
+Websites use robots.txt to tell bots which parts they are allowed or not allowed to visit. It protects sensitive information, stops servers from getting overloaded, and helps websites stay organized and fair for human visitors. Following robots.txt is a key part of ethical web scraping and shows respect for the site's rules.
