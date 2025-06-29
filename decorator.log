@@ -1,0 +1,6 @@
+function: say_hello positional parameters: none keyword parameters: none return: None
+function: accept_any_args positional parameters: none keyword parameters: none return: True
+function: accept_any_args positional parameters: [5] keyword parameters: none return: True
+function: accept_any_args positional parameters: ['apple', 42, [1, 2]] keyword parameters: none return: True
+function: return_decorator positional parameters: none keyword parameters: none return: <function logger_decorator at 0x10499b380>
+function: return_decorator positional parameters: none keyword parameters: {'alpha': 1, 'beta': 'B'} return: <function logger_decorator at 0x10499b380>
