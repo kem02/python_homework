@@ -1,0 +1,5 @@
+Static charts are quick, easy images you can drop into reports when you just need a snapshot. Interactive plots live in your browser so you can hover, zoom, filter, and dig into the data. Perfect for dashboards and playing around with your numbers.
+
+Dashboards give you a live window into key metrics so you can spot problems instantly and act fast. By pulling in data from all your systems and letting you click around, filter, drill down and pivot, you ditch static reports and keep everyone on the same page.
+
+With Plotly and Dash, you build dynamic charts that respond to user input—hover to reveal exact values, zoom into areas of interest, and toggle data layers on and off. Embedding these live visuals in presentations or web apps keeps everyone engaged, speeds up feedback loops, and makes complex data easy to explore and understand in real time.
